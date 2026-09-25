@@ -15,6 +15,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 tools:
   edit:
@@ -38,14 +39,16 @@ Update [site/content/github-info.md](site/content/github-info.md) with a concise
 2. Read the current [site/content/github-info.md](site/content/github-info.md) before editing it.
 3. Use `web-fetch` to read <https://github.blog/latest/>.
 4. Use `web-fetch` to read <https://github.blog/changelog/>.
-5. If you need repository guidance or reference files, use GitHub repository API tools instead of terminal, CLI, or sandboxed shell commands.
-6. If you need external public guidance beyond those repository files, use `web-fetch`.
+5. Use `web-fetch` to read <https://awesome-copilot.github.com/workflows/>.
+6. Add Awesome Copilot workflows from <https://awesome-copilot.github.com/workflows/> to the source material you consider before updating the page.
+7. If you need repository guidance or reference files, use GitHub repository API tools instead of terminal, CLI, or sandboxed shell commands.
+8. If you need external public guidance beyond those repository files, use `web-fetch`.
 
 ## Editing task
 
 1. Update only [site/content/github-info.md](site/content/github-info.md).
 2. Keep the writing short, practical, and aligned with Mona's editorial angle.
-3. Mention the source when an update comes from the GitHub Blog or GitHub Changelog.
+3. Mention the source when an update comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 4. Prefer the most useful recent items for developers learning GitHub.
 5. Do not edit workflow files, compile workflows, or write directly to `main`.
 
